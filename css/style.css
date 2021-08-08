@@ -1,0 +1,72 @@
+.hidden {
+  display: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+#quote span,
+#weather span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#clock {
+  font-size: 80px;
+}
+
+input {
+  padding: 15px 0px;
+  border: none;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 25px;
+  transition: border-color 0.3s ease-in-out;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#todo-form input {
+  width: 300px;
+  text-align: center;
+}
+
+#greeting {
+  font-size: 60px;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+}
+li {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+li button {
+  margin: 10px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 30px;
+}
